@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="Homework" content="Flex homework">
+    <meta name="Homework" content="Second part flex homework">
     <title>Esercitazione</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -12,65 +12,81 @@
 
     <!-- Header -->
     <header>
-        
+
+        <!-- header top -->
         <div class="container">
-            <div class="row">
+            <nav class="row">
 
-                <div class="col-25">logo</div>
-                <div class="col-50">link link link link</div>
-                <div class="col-25">login</div>
+                <div class="col-25 left">
+                    <a class="logo" href="">Logo</a>
+                </div>
 
-            </div>
+                <div class="col-50">
+
+                    <ul class="nav-list">
+                        <li><a href="">link</a></li>
+                        <li><a href="">link</a></li>
+                        <li><a href="">link</a></li>
+                        <li><a href="">link</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-25 right">
+                    <a class="login" href="">login</a>
+                </div>
+
+            </nav>
         </div>
-
-        <section class="section-blue">
-            <div class="container"></div>
-        </section>
-
     </header>
 
     <!-- Main -->
     <main>
 
+        <!-- section blue -->
+        <section class="section bg-blue">
+            <div class="container"></div>
+        </section>
+
         <!-- section 1 main -->
-        <section class="section-1">
+        <section class="section">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-70"></div>
-                    <div class="col-30"></div>
+                    <div class="col-60"></div>
+                    <div class="col-40"></div>
 
                 </div>
             </div>
         </section>
 
         <!-- section 2 main -->
-        <section class="section-2">
+        <section class="section bg-grey">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-30"></div>
-                    <div class="col-70"></div>
+                    <div class="col-40"></div>
+                    <div class="col-60"></div>
 
                 </div>
             </div>
         </section>
 
         <!-- section 3 main -->
-        <section class="section-3">
+        <section class="section">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-70"></div>
-                    <div class="col-30"></div>
+                    <div class="col-60"></div>
+                    <div class="col-40"></div>
 
                 </div>
             </div>
         </section>
 
-        <!-- section 4 main -->
-        <section class="section-4">
-            <div class="container"></div>
+        <!-- section green main -->
+        <section class="section">
+            <div class="container green-box"></div>
         </section>
     </main>
 
@@ -78,27 +94,29 @@
     <footer>
 
         <!-- section 1 footer -->
-        <section class="section-1">
+        <section class="footer-top">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-big"></div>
-                    <div class="col-small"></div>
-                    <div class="col-small"></div>
-                    <div class="col-small"></div>
-                    <div class="col-small"></div>
+                    <div class="col-30"></div>
+                    <div class="col-70 row">
+                        <div class="col-25"></div>
+                        <div class="col-25"></div>
+                        <div class="col-25"></div>
+                        <div class="col-25"></div>
+                    </div>
 
                 </div>
             </div>
         </section>
 
         <!-- section 2 footer -->
-        <section class="section-2">
+        <section class="footer-bottom">
             <div class="container">
                 <div class="row">
 
                     <div class="logo">Logo</div>
-                    <button class="button">Bottone</button>
+                    <a class="button">Bottone</a>
 
                 </div>
             </div>
